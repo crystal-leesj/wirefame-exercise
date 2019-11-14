@@ -14,8 +14,9 @@ nav {
 
 nav ul {
   list-style-type: none;
-  width: 1080px;
+  width: 1000px;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 nav ul li {
@@ -49,15 +50,15 @@ section img:last-child {
 .texts {
   display: inline-block;
   vertical-align: top;
-  max-width: 450px;
+  max-width: 455px;
   margin: auto;
-  margin-left: 12px;
+  margin-left: 20px;
 }
 .texts h3 {
   font-size: 1.7em;
 }
 .texts p {
-  width: 465px;
+  width: 455px;
   overflow-y: scroll;
   height: 300px;
   font-size: 1.5em;
