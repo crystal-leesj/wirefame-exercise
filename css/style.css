@@ -13,7 +13,7 @@ nav {
 
 nav ul {
   list-style-type: none;
-  width: 960px;
+  width: 1080px;
   overflow: hidden;
 }
 
@@ -21,6 +21,10 @@ nav ul li {
   display: inline-block;
   margin: 23px;
   vertical-align: middle;
+}
+
+nav ul li:first-child {
+  overflow: hidden;
 }
 
 nav ul li a {
