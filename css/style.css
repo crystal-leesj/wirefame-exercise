@@ -33,16 +33,16 @@ nav ul li a {
   font-size: 1.5em;
 }
 
-section {
+section img {
   display: inline-block;
-  width: 33%;
-  padding: 30px 0px 30px 10px;
+  /* width: 33%; */
+  margin: 30px 26px 30px 0px;
   vertical-align: top;
 }
 
-section:last-child {
-  zoom: 1;
-  border: 3px solid palevioletred;
+section img:last-child {
+  float: right;
+  margin: 30px 0px 30px 0px;
 }
 
 .texts {
