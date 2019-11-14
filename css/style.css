@@ -33,6 +33,11 @@ nav ul li a {
   text-align: center;
   text-decoration: none;
   font-size: 1.5em;
+  color: bisque;
+}
+
+nav ul li a:hover {
+  color: rgb(224, 137, 31);
 }
 
 section img {
@@ -82,7 +87,7 @@ button {
 }
 
 button:hover {
-  background-color: #192f1a
+  background-color: #192f1a;
 }
 
 footer {
